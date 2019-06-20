@@ -80,5 +80,5 @@ class Dog
     end.first 
   end
   
-  self.find_or_create_by(name)
+  self.find_or_create_by(name:, breed:)
 end
