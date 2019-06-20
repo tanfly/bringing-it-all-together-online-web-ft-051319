@@ -63,4 +63,6 @@ class Dog
     end.first 
   end 
   
+  def self.create
+  
 end
