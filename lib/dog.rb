@@ -75,5 +75,5 @@ class Dog
     FROM dogs
     WHERE id = ?
     SQL
-    
+    db.
 end
