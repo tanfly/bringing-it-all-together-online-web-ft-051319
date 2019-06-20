@@ -87,5 +87,5 @@ class Dog
   WHERE name = ?
   AND breed = ?
   SQL
-  DB[:conn].execute(sql, )
+  DB[:conn].execute(sql, name, breed)
 end
