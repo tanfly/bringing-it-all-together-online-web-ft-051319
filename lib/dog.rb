@@ -90,5 +90,5 @@ class Dog
   DB[:conn].execute(sql, name, breed)
   
   if !dog.empty?
-    self.new(id[0][0])
+    self.new(id[0][0, ])
 end
