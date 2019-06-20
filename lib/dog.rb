@@ -70,4 +70,5 @@ class Dog
   end
   
   def self.find_by_id
+    
 end
