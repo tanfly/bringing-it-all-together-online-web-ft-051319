@@ -81,4 +81,7 @@ class Dog
   end
   
   self.find_or_create_by(name:, breed:)
+  sql = <<-SQL 
+  SELECT * 
+  FROM dogs 
 end
