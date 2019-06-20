@@ -88,4 +88,6 @@ class Dog
   AND breed = ?
   SQL
   DB[:conn].execute(sql, name, breed)
+  
+  if !dog.empty?
 end
